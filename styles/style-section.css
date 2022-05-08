@@ -1,0 +1,58 @@
+.container__services {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.75em;
+    color: white;
+    background-color: rgb(52, 48, 48);     
+}
+
+.section__title {
+    text-align: center;
+    font-size: 2em;
+}
+
+.services__card > h2 {
+    color: green;
+    padding-bottom: 15px;
+}
+
+.services__card {
+    width: 125px;
+    height: 125px;
+    margin: 0 30px;
+    text-align: center;
+}
+
+.container__skills{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skills__card {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.skill_black {
+    width: 133px;
+    background-color: rgb(52, 48, 48);
+    color: whitesmoke;
+    text-align: center;
+}
+
+.skill_green {
+    width: 427px;
+    background-color: green;
+}
+
+.skill_grey {
+    width: 106px;
+    padding-right: 1px;
+    background-color: lightgrey;
+    color: gray;
+    text-align: right;
+}
